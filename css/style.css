@@ -276,8 +276,6 @@ label {
 .side-search-bar form button:hover,
 .sidebar-product-content .rating,
 .sidebar-product-content h5 a:hover,
-.previous-product > a:hover,
-.next-product > a:hover,
 .product-details-info > span a:hover,
 .wishlist-compare ul li a:hover,
 .product-details-share ul li a:hover,
@@ -3451,7 +3449,7 @@ header.side-header {
     text-transform: uppercase;
     font-family: 'Jost', sans-serif;
     font-size: 13px;
-    color: #403a37;
+    color: #fff;
 }
 .previous-product > a i {
     margin-right: 5px;
@@ -4085,7 +4083,8 @@ header.side-header {
     transition: 0.7s all;
 }
 
-.shop-area .product-overlay-action {
+.shop-area .product-overlay-action,
+.related-product-active .product-overlay-action {
     height: 82%;
 }
 
